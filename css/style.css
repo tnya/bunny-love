@@ -1,0 +1,81 @@
+body{
+	background: #ecf7fb;
+	padding: 0;
+	margin: 0 auto;
+	overflow-x:hidden;
+	font-family: 'Indie Flower', cursive;
+	color: white;
+}
+
+/*estilos nav*/
+.navbar{
+	background-color: #33909b;
+	width: 100%;
+	height: 60px;
+	padding: 20px;
+	position: fixed;
+	z-index: 1;
+}
+
+.lista-menu{
+	display: inline-block;
+	margin-top: -50px;
+	margin-right: 40px;
+}
+
+
+ul{
+	list-style: none;
+	margin:0;   
+
+}
+
+ul li{
+	
+	display: inline-block;
+}
+
+ul li a{
+	
+	display: inline-block;
+	color: white;
+	text-align: center;
+	text-decoration: none;
+	cursor: pointer;
+	padding:30px;
+	margin: 0;
+	font-size: 10px;
+}
+
+.lista li a{
+	margin-left: 10px;
+}
+
+ul li a:hover{
+	color:pink;
+}
+
+
+/*estilo imagen 1 conejo*/
+
+.caja-color{
+	background-color: #ecf7fb;
+	
+}
+.conejo1{
+	width: 70%;
+	margin-left: 203px;
+}
+
+/*seccion imagenes y texto de conejos */
+
+.conejos{
+	width: 10%;
+	display: inline-block;
+}
+
+.col-4{
+	
+	display: inline-block;
+
+}
